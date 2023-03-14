@@ -16,7 +16,7 @@ dotenv.config();
 const port = process.env.PORT || 5000;
 
 //DB connection
-const MONGODB_URL = process.env.DB_URL_DEV;
+const MONGODB_URL = process.env.DB_URL_PROD || process.env.DB_URL_DEV;
 connect(MONGODB_URL)
   .then(() => {
     console.log("Connected to database");
