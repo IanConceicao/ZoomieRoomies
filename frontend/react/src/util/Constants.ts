@@ -1,2 +1,3 @@
 export const BACKEND_URL =
-  process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+process.env.NODE_ENV === "production"
+? "https://zoomie-roomies-backend.herokuapp.com/" : "http://localhost:5000";
