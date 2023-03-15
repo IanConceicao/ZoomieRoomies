@@ -1,4 +1,4 @@
-import { BACKEND_URL } from "../util/Constants";
+import { BACKEND_URL } from "./Constants";
 import { Roommate } from "./Roommate";
 
 export const createRoommate = async (roommate: Roommate): Promise<Response> => {
