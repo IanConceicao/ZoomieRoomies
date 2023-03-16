@@ -1,9 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # Zoomie Roomies
 
 Tour the website at: https://zoomieroomies.netlify.app/
