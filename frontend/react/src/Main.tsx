@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Search from "./pages/Search";
+import { pingBackend } from "./util/ApiCalls";
 
 const NoMatch: React.FC = () => {
   return <p>Error 404: Path not recognized.</p>;
 };
 
 const Main: React.FC = () => {
+  useEffect(() => {
+    pingBackend();
+  }, []);
+
   return (
     <BrowserRouter>
       {" "}

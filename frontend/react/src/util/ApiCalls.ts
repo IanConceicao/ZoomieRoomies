@@ -127,3 +127,14 @@ const authedGetRequest = async (url: string): Promise<Response> => {
   });
   return response;
 };
+
+export const pingBackend = async (): Promise<Response> => {
+  // Ping the backend to wake it in case it is sleeping
+  const response = await fetch(BACKEND_URL, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  return response;
+};
