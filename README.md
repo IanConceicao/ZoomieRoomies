@@ -1,9 +1,9 @@
 # Zoomie Roomies
 
-Tour the website at: https://zoomieroomies.netlify.app/
+Tour the website at: https://zoomieroomies.ianconceicao.com/
 
 <p align="center">
-<a href="https://zoomieroomies.netlify.app/">
+<a href="https://zoomieroomies.ianconceicao.com/">
 <img src="resources/home-screen.png">
 </a>
 
