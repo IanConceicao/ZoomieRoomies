@@ -1,6 +1,6 @@
 # Zoomie Roomies
 
-Tour the website at: https://zoomieroomies.ianconceicao.com/
+Tour the website at: https://zoomieroomies.ianconceicao.com
 
 <p align="center">
 <a href="https://zoomieroomies.ianconceicao.com/">
