@@ -1,12 +1,13 @@
 # Zoomie Roomies
 
-Tour the website at: https://zoomieroomies.ianconceicao.com
-
 <p align="center">
 <a href="https://zoomieroomies.ianconceicao.com/">
 <img src="resources/home-screen.png">
 </a>
-
+Tour the website at:
+<a href="https://zoomieroomies.ianconceicao.com/">
+zoomieroomies.ianconceicao.com
+</a> 
 </p>
 
 ## Motivation
